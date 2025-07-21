@@ -1,0 +1,607 @@
+{
+  "totalMark": 16,
+  "wsosSections": {
+    "1": "Work organization and management",
+    "2": "Communication and interpersonal skills",
+    "3": "Website Design",
+    "4": "Layout"
+  },
+  "subCriterions": [
+    {
+      "name": "Presentation and Accessibility",
+      "id": "F1",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "The marketing page is accessible via required URL",
+          "maxMark": 0.5,
+          "wsosSection": 2,
+          "extraDescription": "XX_module_F/",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "High fidelity website presentation graphics for SNS is provided",
+          "maxMark": 0.25,
+          "wsosSection": 1,
+          "extraDescription": "A file named \"social-network\" with extension JPEG, or PNG, or PDF is provided",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Presentation file contains required information",
+          "maxMark": 0.25,
+          "wsosSection": 2,
+          "extraDescription": "Containing one page design showing a long capture of the whole page; Main color palette; Website title",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The main color palette is present in the delivery",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "All text content is readable by screen reader",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Testing with NVAccess, with screen reader viewer, and should see all text content, including text content inside images.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Text size can be scaled up and down",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "From 50% to 200% at least",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Heading levels are correct",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Each session has its own heading, following the heading hierarchy",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Heading color contrast follows WCAG guide",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Large text contrast ratio",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Body color contrast follows WCAG guide",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Use Firefox developer accessibility panel to check. Body text contrast ratio",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The page contains all the content required",
+          "maxMark": 0.5,
+          "wsosSection": 1,
+          "extraDescription": "Title, sub title, big promote banner for platform debut, Big four features, parent company information, game platform roadmap for 2023.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "The submitted design source has well organized layers.",
+          "maxMark": 0.5,
+          "wsosSection": 1,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "There is only 1 layer in the source, or even no source."
+              },
+              {
+                "score": 1,
+                "description": "There are layers, but most of them are not renamed and not grouped."
+              },
+              {
+                "score": 2,
+                "description": "Layers are renamed but not grouped in logical order."
+              },
+              {
+                "score": 3,
+                "description": "Layers are grouped in logical order with reasonable naming."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Design",
+      "id": "F2",
+      "aspects": [
+        {
+          "type": "judgement",
+          "description": "Align of elements, in the marketing page",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "Elements are not aligned at all."
+              },
+              {
+                "score": 1,
+                "description": "Most elements are not aligned."
+              },
+              {
+                "score": 2,
+                "description": "Only some of the elements are not aligned."
+              },
+              {
+                "score": 3,
+                "description": "All the elements are properly aligned."
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Use of White space",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "There was no use of white space to enhance legibility and readability."
+              },
+              {
+                "score": 1,
+                "description": "Some white space was present to enhance legibility and readability. There are numerous instances where white space is not proportional."
+              },
+              {
+                "score": 2,
+                "description": "Ample white space was present to enhance legibility and readability."
+              },
+              {
+                "score": 3,
+                "description": "Excellent use of white space to enhance legibility and readability, permiting an easy identification of elements and content. The content is clearly identified because the correct use of white space and the white space is proportional between the elements or blocks of content."
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Create an aesthetically pleasing and creative design",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "Visual identity not organized at all."
+              },
+              {
+                "score": 1,
+                "description": "Visual identity mostly not consistent, most elements are not well organized."
+              },
+              {
+                "score": 2,
+                "description": "Visual identity mostly consistent, but a few elements are not well organized."
+              },
+              {
+                "score": 3,
+                "description": "Consistent visual identity where all elements are well organized."
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Balance between text and image",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "Layout is not balanced, there is excess text and a lack of images."
+              },
+              {
+                "score": 1,
+                "description": "Layout is somewhat balanced, text could be reduced or more images can be used."
+              },
+              {
+                "score": 2,
+                "description": "Layout is balnced, text and images are well crafted in the composition."
+              },
+              {
+                "score": 3,
+                "description": "Layout is well balanced, text and images are well crafted and communicates effectively to the target user."
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Use of typography to improve readability",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "I cannot read / do not like to read because it is difficult to read"
+              },
+              {
+                "score": 1,
+                "description": "I can read but I lose focus while reading"
+              },
+              {
+                "score": 2,
+                "description": "I can read I want to read, but there is some problem in the (leading, kerning, font-color, font-size etc.)"
+              },
+              {
+                "score": 3,
+                "description": "Font color, leading, kerning, and font-size, text alignment, etc. used to improve readability"
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Visual identity is consistent in all components in the web page",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "Inconsistent visual identity and / or do not incorporate graphic elements provided / created."
+              },
+              {
+                "score": 1,
+                "description": "Good visual identity of elements, but only one element must be updated to connect everything."
+              },
+              {
+                "score": 2,
+                "description": "Consistent visual identity which all elements are organized."
+              },
+              {
+                "score": 3,
+                "description": "Excellent visual identity which all elements are organized and connected with themselves creating a family of elements."
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Hierarchy of information (for desktop version)",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "Information hierarchy is poor and might confuse the end user."
+              },
+              {
+                "score": 1,
+                "description": "Information on the website is hierarchical but focus points are difficult to track."
+              },
+              {
+                "score": 2,
+                "description": "There is good hierarchy between the elements and adjustments can be made to make it excellent."
+              },
+              {
+                "score": 3,
+                "description": "Execent hierarchy with information organizing in a way that's usable, accessible, and logical to the everyday site visitors."
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Grouping of information",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "No information is categorized correctly, the information is disconnected."
+              },
+              {
+                "score": 1,
+                "description": "Only some information is categorized correctly, as described."
+              },
+              {
+                "score": 2,
+                "description": "Almost all information categorized correctly as described."
+              },
+              {
+                "score": 3,
+                "description": "All information categorized correctly and following the descriptive."
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Design match with the target audience",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "Design is unsuitable for the target audience."
+              },
+              {
+                "score": 1,
+                "description": "Design is suitable for the target audience."
+              },
+              {
+                "score": 2,
+                "description": "Website design match and attract majority of the target audience."
+              },
+              {
+                "score": 3,
+                "description": "Design match target audience and captivate all target audience."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Features and Roadmap",
+      "id": "F3",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Layout for desktop has no full page horizontal scroll bar",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Intentional components horizontal scrollbar is fine. Full page broken with scrollbar is not fine",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Layout for mobile has no full page horizontal scroll bar",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Intentional components horizontal scrollbar is fine. Full page broken with scrollbar is not fine",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "In the features section, can toggle features by clicking on the feature title",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "As described in Test Project, there are 4 features, click on each should show one and only one image, which is the image of the selected feature. The tabs should work even when JavaScript is disabled.",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Create easy to maintain HTML code",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "Many part of HTML Code is unorganized, without indentation and comments"
+              },
+              {
+                "score": 1,
+                "description": "HTML Code have a good indentation"
+              },
+              {
+                "score": 2,
+                "description": "HTML Code have a good indentation and a few comments"
+              },
+              {
+                "score": 3,
+                "description": "HTML code is very well organized with good indentations, comments, and semantic elements to facility the maintenance identifies the elements of the code."
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Create easy to maintain CSS code",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "CSS unorganized without indentation. Names for classes and ids not meaningful."
+              },
+              {
+                "score": 1,
+                "description": "CSS Code have a good indentation. Names for classes and ids generic"
+              },
+              {
+                "score": 2,
+                "description": "CSS Code have a good indentation and a few comments. Use of meaningful names for classes and ids"
+              },
+              {
+                "score": 3,
+                "description": "CSS code is very well organized with good indentations and comments to facility the maintenance and a group technique was used for related code. Use of meaningful names for classes and ids, instead of mentioning styles in name. CSS classes are reusable."
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "The images chosen for features presenting can enhance the understanding of the game platform and features",
+          "maxMark": 1,
+          "wsosSection": 2,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "Most of the screenshot and images of features in the design is blurry or not readable. Or not related to the mentioned features."
+              },
+              {
+                "score": 1,
+                "description": "Part of the screenshot and images of featrues in the design is not clear, or is blurry, or not readable."
+              },
+              {
+                "score": 2,
+                "description": "The screenshots and images of features in the design is clear, but taken in large resolution so reader cannot easily read each screen"
+              },
+              {
+                "score": 3,
+                "description": "The screenshots and images of features in the design is clear and features are large enough for reader to understand at a glance."
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Use adapted elements for different screen resolutions or different devices",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "No elements for mobile touch devices"
+              },
+              {
+                "score": 1,
+                "description": "Just one Single element was adjusted the content to touch devices"
+              },
+              {
+                "score": 2,
+                "description": "Elements are adjusted using single touch functionalities"
+              },
+              {
+                "score": 3,
+                "description": "Excellent distribution of content to mobile touch devices and the elements are adjusted using single touch functionalities."
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "Ecosystem roadmap image is created based on the draft image, and integrate well into the page",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "The elements of road map follows the draft sketch position, with at least three or more differences found."
+              },
+              {
+                "score": 1,
+                "description": "The elements of road map follows the draft sketch position, with at least two differences found."
+              },
+              {
+                "score": 2,
+                "description": "The elements of road map follows the draft sketch position, with one differences found."
+              },
+              {
+                "score": 3,
+                "description": "The elements of the road map follows the draft sketch position."
+              }
+            ]
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "The roadmap present the bright future of vision from the company in a confident way",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "extraDescription": "",
+          "calculation": {
+            "type": "scale",
+            "scale": [
+              {
+                "score": 0,
+                "description": "The present of roadmap feels draft and not pursuasive at all."
+              },
+              {
+                "score": 1,
+                "description": "The present of roadmap does not create influences for reader sto believe in the vision."
+              },
+              {
+                "score": 2,
+                "description": "The image conveys the mssage of bright future and shows confidence to readers, making the readers from different roles higher chance to believe in the vision."
+              },
+              {
+                "score": 3,
+                "description": "The image conveys the mssage fright future and shows confidence to readers, making the readers from different roles believe in the vision. Animation or transition are used for better reader undertanding."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
