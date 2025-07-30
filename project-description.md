@@ -53,6 +53,8 @@ It is your responsibility to create these features images for marketing.
 The client wants the top 4 features to be togglable. A user-interface similar to the following sketch. The toggling
 should work even without JavaScript.
 
+![Fetures Toggle](https://raw.githubusercontent.com/marketable-it-skills/s17-ws2022-module_f-game_platform_marketing_page/refs/heads/main/assets/project-description-images/features-toggle.png)
+
 ## Graphic of Ecosystem Roadmap for 2023
 
 In order to let people knowing that the parent company is doing more than a game platform, the client, P-Media
@@ -64,6 +66,8 @@ correctly.
 
 Please note that roadmap means future plan. Features mentioned in the following chart is to only sho the vision,
 not for feature implementing.
+
+![Roadmap](https://raw.githubusercontent.com/marketable-it-skills/s17-ws2022-module_f-game_platform_marketing_page/refs/heads/main/assets/project-description-images/roadmap.png)
 
 ## Design showcase graphic for social network service
 
